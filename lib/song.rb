@@ -23,8 +23,13 @@ class Song
     return song
   end
 
-  def self.create_by_name(name)
-    
+  def self.find_by_name(name)
+    @@all.each do |indivName|
+      if indivName == name
+        then rightSong = self
+      end
+    end
+    return rightSong
   end
 
 end
