@@ -69,7 +69,7 @@ class Song
     new_song.name = data[1]
 
     @@all << new_song
-    new_song
+    return new_song
   end
 
   def self.destroy_all
