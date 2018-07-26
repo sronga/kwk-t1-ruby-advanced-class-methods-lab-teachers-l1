@@ -41,6 +41,7 @@ class Song
       return self
     else
       create_by_name(name)
+    end
   end
 
 end
