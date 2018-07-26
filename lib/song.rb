@@ -49,7 +49,7 @@ class Song
   end
 
   def self.new_from_filename(filename)
-    new_song = 
+    new_song = self
 
     newFile = filename.chomp(".mp3")
 
